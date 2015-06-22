@@ -6,4 +6,5 @@ from . import views
 
 urlpatterns = [
     url(r'^1/',views.basicone),
+    url(r'^2/',views.template_two),
 ]
