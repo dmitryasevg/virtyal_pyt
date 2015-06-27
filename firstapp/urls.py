@@ -19,7 +19,9 @@ from article import urls as article_urls
 
 
 urlpatterns = [
+
     url(r'^admin/', include(admin.site.urls)),
     url(r'^basicone/',include(article_urls)),
+    url(r'^',include(article_urls)),
 
 ]
